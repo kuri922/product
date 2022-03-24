@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<context>
+<Resource
+name = "jdbc/mysql"
+type = "javax.sql.DataSource"
+auth = "Container"
+driverClassName = "com.mysql.jdbc.Driver"
+url = "jdbc:mysql://localhost/exercise_b"
+username = "kuriyama"
+password = "jqb60173"
+maxActive ="20"
+maxIdel = "10"
+maxWait = "100"
+/>
+</context>
